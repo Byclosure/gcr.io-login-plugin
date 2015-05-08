@@ -15,8 +15,8 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
-  <name>TODO Plugin</name>
-  <description>TODO</description>
+  <name>gcr.io Login Plugin</name>
+  <description>For virtual machines running in google compute engine with docker installed, logins in the project's google registry.</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
   <licenses>
     <license>
@@ -52,14 +52,18 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
-  <!-- If you want to depend on other plugins:
+
   <dependencies>
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>credentials</artifactId>
-      <version>1.9.4</version>
-    </dependency>
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>2.5.3</version>
+      </dependency>
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-core</artifactId>
+          <version>2.5.3</version>
+      </dependency>
   </dependencies>
-  -->
 
 </project>
