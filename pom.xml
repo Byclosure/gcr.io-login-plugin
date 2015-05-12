@@ -17,7 +17,6 @@
 
   <name>gcr.io Login Plugin</name>
   <description>For virtual machines running in google compute engine with docker installed, logins in the project's google registry.</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
   <licenses>
     <license>
       <name>MIT License</name>
